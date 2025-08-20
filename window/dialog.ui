@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>602</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>201</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>62</y>
+     <width>551</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="styleSheet">
+       <string notr="true"> background-color: #f9fafb;
+  font-size: 70%;
+  line-height: 1.4;
+  font-family: &quot;Inter&quot;, sans-serif;
+  color: #6b7280;
+  font-weight: 400;
+  border-color: grey;
+border-radius: 5%</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLineEdit" name="input">
+        <property name="styleSheet">
+         <string notr="true"> background-color: white;
+ font-size: 18px;
+ border: none;
+ border-radius: 0;
+ border-bottom: 1px solid rgba(199, 199, 199, 0.8);
+border-radius: 5%</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="sendButton">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+float:right;
+margin-left:3%;
+margint-top:5px;
+border-radius:5px;
+padding: 5px 9px;
+font-size: 1.2em;
+background-color: rgba(154, 172, 214, 1);
+text-shadow:#454545 0 0 2px;
+border-bottom: 4px solid rgba(110, 123, 153, 1);
+color:white;
+}
+QPushButton:pressed{
+background-color:rgba(110, 123, 153, 1);
+border-bottom: 4px solid rgba(154, 172, 214, 1);
+}</string>
+        </property>
+        <property name="text">
+         <string>Отправить</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
